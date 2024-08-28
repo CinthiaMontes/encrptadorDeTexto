@@ -1,0 +1,98 @@
+/* Estilos generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #74b9ff, #a29bfe);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Contenedor principal */
+.container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    width: 400px;
+    text-align: center;
+}
+
+/* Título */
+h1 {
+    font-size: 24px;
+    color: #2d3436;
+    margin-bottom: 20px;
+}
+
+/* Áreas de texto */
+textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+    border: 2px solid #dfe6e9;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 16px;
+    resize: none;
+    background-color: #f5f5f5;
+    transition: border-color 0.3s ease;
+}
+
+/* Interacción con textarea */
+textarea:focus {
+    border-color: #74b9ff;
+    outline: none;
+}
+
+/* Botones */
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #0984e3;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Interacción con botones */
+.btn:hover {
+    background-color: #74b9ff;
+    transform: translateY(-2px);
+}
+
+.btn:active {
+    background-color: #0984e3;
+    transform: translateY(1px);
+}
+
+.btn-copy {
+    background-color: #6c5ce7;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Interacción con botón de copiar */
+.btn-copy:hover {
+    background-color: #a29bfe;
+    transform: translateY(-2px);
+}
+
+.btn-copy:active {
+    background-color: #6c5ce7;
+    transform: translateY(1px);
+}
